@@ -1,6 +1,6 @@
 pipeline {
-    agent slave
-                {
+    agent
+               {
                   label "slave"
                 }
                   steps {
@@ -10,5 +10,4 @@ pipeline {
                     }
                   }
                 }
-}
                   
